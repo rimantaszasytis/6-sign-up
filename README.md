@@ -32,4 +32,4 @@ Design: [Sign up](https://cdn.discordapp.com/attachments/648536139677958156/6488
 
 ## Authors
 
-Rimntas Zasytis: [Github](https://github.com/rimantaszasytis)
+Rimantas Zasytis: [Github](https://github.com/rimantaszasytis)
