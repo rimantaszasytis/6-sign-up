@@ -4,8 +4,8 @@
     - index.html
     - .gitignore
     - main.css ( bet ne butinai vienintelis)
-- [] paviesinti projekta per GitHub Pages (gausim URL)
-- [] README.md
+- [x] paviesinti projekta per GitHub Pages (gausim URL)
+- [x] README.md
     - skirta aprasyti kas, ka ir kodel daro
     - iterpti nuoroda i daroma dizaina
     - iterpti nuoroda, kur tas musu kodas gali buti pamatytas
