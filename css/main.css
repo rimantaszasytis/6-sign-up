@@ -16,7 +16,7 @@ body{
     display: inline-block;
     width: 800px;
     margin: 100px calc((100% - 800px) / 2) 0;
-
+    position: relative;
 }
 
 .left-column{
@@ -50,10 +50,21 @@ display: inline-block;
 width: calc(60% - 90px);
 padding: 40px;
 float: left;
-background-color: #fff;    
+background-color: #fff; 
+position: relative;   
 }
 
 .close{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 57px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
 }
 
 .form{
