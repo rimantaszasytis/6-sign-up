@@ -20,12 +20,16 @@ body{
 }
 
 .left-column{
-    display: inline-block;
     width: 40%;
     float: left;
-    padding: 20px;
-    background-color: #4C46A5;
+    padding: 40px;
+    margin-top: 20px;
     color: #fff;
+    background-color: #4C46A5;
+    background-image: url(../img/hill.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
 }
 .main-title{
 }
