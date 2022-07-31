@@ -11,14 +11,23 @@ body *{
 body{
     background-color: #00b4d0;
 }
+.background {
+    background-image: url(../img/hill-big.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    filter: blur(20px);
+}
 
 .container{
     display: inline-block;
     width: 800px;
-    margin: 100px calc((100% - 800px) / 2) 0;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
 .left-column{
     width: 40%;
     float: left;
@@ -30,16 +39,23 @@ body{
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center;
+    /*position: absolute;*/
+    top: 40px;
+    bottom: 40px;
 }
 .main-title{
 }
 
 .bottom-links{
-
+position: absolute;
+bottom: 20px;
+left: 40px;
+right: 40px;
 }
 
 .bottom-links > a{
-    color: #fff;    
+    color: #fff; 
+    
 }
 
 .bottom-links > span{
@@ -67,58 +83,3 @@ position: relative;
 
 }
 
-.form{
-    display: inline-block;
-    width: 100%;
-}
-
-.form-row{
-    display: inline-block;
-    width: 100%;
-}
-
-.form-row + .form-row {
-    margin-top: 40px;
-}
-
-label{
-    display: inline-block;
-    width: 100%;
-    color: #999;
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 14px;
-    line-height: 15px;
-
-}
-
-input{
-    display: inline-block;
-    width: 100%;
-    font-size: 20px;
-    line-height: 1.8em;
-    border: none;
-    border-bottom: 1px solid #999;
-}
-
-button{
-    float: left;
-    padding: 10px 30px 10px 30px;
-    background-color: #015CDA;
-    border: 1px solid #015CDA;
-    color: #fff;
-    font-size: 18px;
-    line-height: 20px;
-    border-radius: 20px;
-}
-.form-row > span {
-    float: left;
-    padding: 11px;
-    line-height: 20px;
-}
-.form-row > a {
-    float: left;
-    text-decoration: none;
-    padding: 11px;
-    line-height: 20px;
-}
